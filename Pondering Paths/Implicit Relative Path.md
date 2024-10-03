@@ -1,8 +1,8 @@
 # Implicit Relative Paths, form /
 ## EXPLANATION 
 The eigth task was to to run `/challenge/run`  while having a current working directory of `/challenge` by using the implicit entry`.`.
-It required me to change my directory to `/challenge` using the `cd` and the excute `run` program using the implicit entry.
-so i changed my directory to `/challenge` using the `cd` and then i typed `./run` in the terminal which was equal to the command `/challenge/run` .
+It required me to change my directory to `/challenge` using the `cd` command and the excute `run` program using the implicit entry.
+so i changed my directory to `/challenge` using the `cd` and then i typed `./run` in the terminal which was equal to the command `/challenge/run` to solve the problem .
 Then i copy pasted the generated flag into the `pwn.college` site.
 ## CODE 
 ```bash
