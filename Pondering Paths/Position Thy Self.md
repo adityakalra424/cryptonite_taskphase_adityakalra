@@ -2,8 +2,8 @@
 ## EXPLANATION 
 The third task was to navigate around directories by using the cd (change directory) command and pass a path to it as an argument.
 It required me to execute the `/challenge/run` program from a specific path (which it will tell me).
-So i first i executed the `/challenge/run` to find from which directory i had to execute the `/challenge/run` program from.
-Then i cd to that directory and reexecuted the `/challenge/run` program.Then i copy pasted the generated flag into the `pwn.college` site.
+So i first i executed the `/challenge/run` to find out from which directory i had to execute the `/challenge/run` program from.
+The directory from which i had to execute the program from was`/usr/include`. Then i cd to `/usr/include` and reexecuted the `/challenge/run` program.Then i copy pasted the generated flag into the `pwn.college` site.
 ## CODE 
 ```bash
 hacker@paths~position-thy-self:~$ cd /challlenge/run
