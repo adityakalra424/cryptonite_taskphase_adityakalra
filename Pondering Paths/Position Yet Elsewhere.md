@@ -1,4 +1,4 @@
-# Position Thy Self 
+# Position Yet Elsewhere
 ## EXPLANATION 
 The fifth task was to navigate around directories by using the cd (change directory) command and pass a path to it as an argument.
 It required me to execute the `/challenge/run` program from a specific path (which it will tell me).
