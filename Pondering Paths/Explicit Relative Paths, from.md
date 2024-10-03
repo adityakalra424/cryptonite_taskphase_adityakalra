@@ -2,8 +2,8 @@
 ## EXPLANATION 
 The seventh task was to to run `/challenge/run` using a relative path while having a current working directory of `/` and use the implicit entries.
 It required me to execute the `/challenge/run` program from a specific path (which it will tell me).
-So i first i executed the `/challenge/run` to find from which directory i had to execute the `/challenge/run` program from.
-Then i `cd` to that directory and typed  `./challenge/run` in the terminal which was the relative path to `run` program using the implicit entry.
+So i first i executed the `/challenge/run` to find from which directory i had to execute the `/challenge/run` program from.The directory was`/`directory
+Then i `cd` to `/` directory and typed  `./challenge/run` in the terminal which was the relative path to `run` program using the implicit entry from `/` directory.
 Then i copy pasted the generated flag into the `pwn.college` site.
 ## CODE 
 ```bash
