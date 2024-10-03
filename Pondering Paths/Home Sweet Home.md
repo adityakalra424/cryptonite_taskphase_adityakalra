@@ -1,12 +1,13 @@
 # Home Sweet Home
 ## EXPLANATION 
-The ninth task is to run a command `/challenge/run` which will write a copy of the flag to any file i specify as an argument on the commandlinew with these contraints
+The ninth task is to run a command `/challenge/run` which will write a copy of the flag to any file i specify as an argument on the commandline  with these contraints
 1.Your argument must be an absolute path.
 2.The path must be inside your home directory.
 3.Before expansion, your argument must be three characters or less.
 I typed `/challenge/run` as a command in the command line 
 The 3rd contraint tells us that we need to use ~ in the argument to reduce the number of characters in the argument 
-so i typed `~/a` as an argument which is equal to `/home/hacker/a`. This refers to the file in which the command will write a copy of the flag
+so i typed `~/a` as an argument which is equal to `/home/hacker/a`. `/home/hacker/a` refers to the file in which the command will write a copy of the flag.
+Then the problem was solved.
 Then i copy pasted the generated flag into the pwn.college site.
 ## CODE 
 ```bash
