@@ -2,7 +2,7 @@
 ## INTRODUCTION 
 In the 3rd challenge, we learn `[]`.The square brackes are, essentially, a limited form of `?`, in that instead of matching any character,
 `[]` is a wildcard for some subset of potential characters, specified within the brackets.
-To solve the challenge we had to use `[]` and include `file_b`,`file_a`,`file_s`,`file_h` in a single argument.It can be done using `[]` and writing the argument as `file_[bash]`.
+To solve the challenge we have to run `/challenge/run` with a single argument that bracket-globs into `file_b, file_a, file_s, and file_h`.It can be done using `[]` and writing the argument as `file_[bash]`.
 ## CODE 
 ```bash
 Connected!
