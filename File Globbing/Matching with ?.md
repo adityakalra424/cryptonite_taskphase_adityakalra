@@ -1,6 +1,6 @@
 # Matching with ?
 ## INTRODUCTION 
-In the 1st challenge, we have to learn the use of glob, specifically `?` glob.
+In the 2nd challenge, we have to learn the use of glob, specifically `?` glob.
 When the command line encounters a `?` character in any argument, the shell will treat it as single-character wildcard.
 This works like `*`, but only matches one character.
 To solve the challenge,I had to `cd` to `/challenge` without including the `c` and `l` in the argument.So i wrote the `/challenge` as `/?ha??enge` and ran it. 
