@@ -1,4 +1,4 @@
-# Searching the manuals
+# Searching For manuals
 ## INTRODUCTION
 In the 5th challenge, we need to find the manual which will tell us how to use the `/challenge/challenge` program correctly. to do so i first i used the `man man` command to access all the command related to `man` page
 .Then i found a argument `-k` which searches for text in all manual pages. Then i used it to find the text `/challenge/challenge` which helped me to find the manual for the `/challenge/challenge` which was `csjialgzrd `.
