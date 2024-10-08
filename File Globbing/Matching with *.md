@@ -2,7 +2,7 @@
 ## INTRODUCTION 
 In the 1st challenge, we have to learn the use of glob, specifically `*` glob.When the command line encounters a `*` character in any argument,
 the shell will treat it as "wildcard" and try to replace that argument with any files that match the pattern.To solve the challenge,I had to `cd` to `/challenge` without the argument being more than 4 character.
-So i wrote `/challenge` as `/ch*` which is 4 characters and passed it as an argument.
+So i wrote `/challenge` as `/ch*` which is 4 characters and passed it as an argument.Then i wrote `/challenge/run` to get the flag.
 ## CODE
 ```bash
 Connected!
