@@ -1,6 +1,6 @@
-# Help for buttlines 
+# Help for builitins
 ## INTRODUCTION
-In the 7th challenge we have to learn the use of `bultins` specicifally `help`.we will use `help` to lookup its help to figure out the secret value to pass to the `bultin challenge`. And get the flag.
+In the 7th challenge we have to learn the use of `bultins` specifically `help`.we will use `help` to lookup its instructions which will help to figure out the secret value to pass to the `bultin challenge`. And get the flag.
 ## CODE 
 ``` BASH
 hacker@man~help-for-builtins:~$ help challenge
