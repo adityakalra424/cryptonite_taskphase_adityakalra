@@ -1,9 +1,9 @@
 # Position Elsewhere
 ## EXPLANATION 
-The fourth task was to navigate around directories by using the cd (change directory) command and pass a path to it as an argument.
+The fourth task was to navigate around directories by using the `cd` (change directory) command and pass a path to it as an argument.
 It required me to execute the `/challenge/run` program from a specific path (which it will tell me).
 So i first i executed the `/challenge/run` to find from which directory i had to execute the `/challenge/run` program from.That directory was `/sys`
-Then i cd to `/sys` and reexecuted the `/challenge/run` program.Same as the third task.Then i copy pasted the generated flag into the `pwn.college` site.
+Then i `cd` to `/sys` and reexecuted the `/challenge/run` program.Same as the third task.Then i copy pasted the generated flag into the `pwn.college` site.
 ## CODE 
 ```bash
 Connected!
