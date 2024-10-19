@@ -1,5 +1,6 @@
 # Chaining with semicolons
 ## INTRODUCTION 
+In the 1st challenge,we learn how to chain commands using `;` semicolons.In this challenge,we have to run `/challenge/pwn` and then `/challenge/college`, chaining them with a `;` semicolon.I wrote `/challenge/pwn; /challenge/college` to get the flag.
 ## CODE
 ```bash
 Connected!
