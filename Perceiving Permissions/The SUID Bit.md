@@ -1,6 +1,6 @@
 # 
 ## INTRODUCTION
-In the 8th challenge, we had to add the `SUID bit` to the `/challenge/getroot` program in order to spawn a `root shell` for you to cat the flag ourself.
+In the 8th challenge, we had to add the `SUID bit` to the `/challenge/getroot` program in order to spawn a `root shell` for us to cat the flag ourself.
 The `Set User ID" (SUID)` permissions bit allows the user to run a program as the owner of that program's file.
 we can excute the `SUID bit` using `chmod  u+s`.So i typed `chmod u+s /challenge/getroot` to add the `SUID bit` to the `/challenge/getroot` program.Then i wrote
 `/challenge/getroot` to make me the `root` user and then i wrote `cat /flag` to get the flag.
