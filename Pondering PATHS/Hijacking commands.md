@@ -1,10 +1,7 @@
 # Hijacking commands
 ## INTRODUCTION 
-In the 4th challenge, we had to create a command `rm` that will give the flag instead of deleting it when we run `/challenge/run`.We can do this by making a duplicate 
-shell script in the home directory named `rm` which will not delete the flag but will `cat` it.So i wrote `nano rm` to create a shell script named `rm` then i wrote
-`/bin/cat /flag `in the `rm` file and saved it.
-Then i updated the `PATH` variable to `/home/hacker` so that when the `/challenge/run` is envoked, it doesnt go to the original `rm` command and delete the flag but go 
-to the `rm` shell script that i created which will `cat` the flag.Then i envoked the `/challenge/run` to get the flag.
+In the 4th challenge, we had to create a command `rm` that will give the flag instead of deleting it when we run `/challenge/run`.We can do this by making a duplicate shell script in the home directory named `rm` which will not delete the flag but will `cat` it.So i wrote `nano rm` to create a shell script in the home directory named `rm` then i wrote `/bin/cat /flag `in the `rm` file and saved it.
+Then i updated the `PATH` variable to `/home/hacker` so that when the `/challenge/run` is envoked, it doesnt go to the original `rm` command and delete the flag but go to the `rm` shell script that i created which will `cat` the flag.Then i envoked the `/challenge/run` to get the flag.
 ## CODE
 ``` bash
 Connected!
