@@ -1,7 +1,7 @@
 # Reading Files
 ## INTRODUCTION 
 In the 8th challenge,we have to read `/challenge/read_me` into the `PWN` environment variable.
-So i wrote `read PWN</challenge/read_me` where the output of `/challenge/read_me` is redirected to the input of `PWN`.Then the `read` command reading the content of `PWN`.
+So i wrote `read PWN</challenge/read_me` where the output of `/challenge/read_me` is redirected to the input of `PWN`.Then the `read` command reads into `PWN`.
 Then we get the flag for the challenge.
 ## CODE
 ``` bash
