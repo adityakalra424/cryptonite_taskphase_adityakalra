@@ -2,7 +2,7 @@
 ## INTRODUCTION
 In the 3rd challenge,we had to create a command `win` which cat `/flag` to get the flag.I wrote `echo $PATH` to find the absolute path of the `cat` command.then i wrote
 `nano win` to create a shell script named `win` in the home directory then i wrote `cat /flag` in the `win` shell script and saved it , then i wrote `chmod ugo+rwx win` to make it excutable, then i defined the `PATH` variable by writing 
-`PATH=/home/hacker:/bin:/usr/bin` (the `cat` command was in `/bin`) , then i ran `/challenge/run` to get the flag.
+`PATH=/home/hacker:/bin:/usr/bin` (the `cat` command was in `/bin` directory and the `win` was in `/home/hacker` directory ) , then i ran `/challenge/run` to get the flag.
 ## CODE
 ```bash
 Connected!
