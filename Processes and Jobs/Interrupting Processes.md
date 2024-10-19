@@ -2,7 +2,7 @@
 ## INTRODUCTION 
 In the 3rd challenge,we learn the use of hotkey `Ctrl-C` that sends an `interrupt` to whatever
 application is waiting on input from the terminal and, typically, this causes the application 
-to cleanly exit.
+to cleanly exit.I wrote `/challenge/run` to run it ,then i pressed `Ctrl-C` to interrupt the program and then i got the flag.
 ## CODE
 ``` bash
 Connected!
