@@ -1,9 +1,7 @@
 # Foregrounding Processes
 ## INTRODUCTION
 In the 7th challenge, we had to suspend `/challenge/run`, resume the suspended process in the
-background, and then foreground it without re-suspending it.So I pressed `crtl+z` to suspend the process `/challenge/run` and i wrote `bg /challenge/run` to 
-rusume the suspended process in the background using the `bg` command. Then i wrote `fg /challenge/run` to foreground the process directly from the background.
-Then i got the flag.
+background, and then foreground it without re-suspending it.So i typed `/challenge/run` to envoke it then I pressed `crtl+z` to suspend the process `/challenge/run` and i wrote `bg /challenge/run` to resume the suspended process in the background using the `bg` command. Then i wrote `fg /challenge/run` to foreground the process directly from the background.Then i got the flag.
 ## CODE
 ```bash
 Connected!
