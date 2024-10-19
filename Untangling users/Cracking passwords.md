@@ -1,11 +1,9 @@
 # Cracking passwords
 ## INTRODUCTION
+In the 3th challenge, we learn how to crack a password using `John the Ripper`.The `John the Ripper` can convert the password hash to find the real value of the password.In this challenge we have to find the password for the `zardus` user, switch to `zardus` and then run `/challenge/run` to get the flag. We are given the leak of `/ect/shadow` in the `/challenge/shadow-leak`.I wrote `john  /challenge/shadow-leak` to crack the password for `zardus` user which was `aardvark` then i switched to  `zardus` by typing `su zardus` with the password .then i wrote `/challenge/run` to get the flag.
 ## CODE
 ```bash
 Connected!
-hacker@users~cracking-passwords:~$ john ./challenge/shadow-leak
-Created directory: /home/hacker/.john
-stat: ./challenge/shadow-leak: No such file or directory
 hacker@users~cracking-passwords:~$ john  /challenge/shadow-leak
 Loaded 1 password hash (crypt, generic crypt(3) [?/64])
 Press 'q' or Ctrl-C to abort, almost any other key for status
