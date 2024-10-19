@@ -2,6 +2,7 @@
 ## INTRODUCTION 
 In the 4th challenge we learn how to suspend processes to the background with `Ctrl-Z`.In this challenge
 we have to Use the terminal to launch `/challenge/run`, then suspend it, then launch another copy while the first is suspended to get the flag.
+so I wrote `/challenge/run` to launch it, then i pressed `Ctrl-Z` to suspend it, then i wrote `/challenge/run` to launch another copy and then i got the flag.
 ## CODE
 ```bash
 Connected!
