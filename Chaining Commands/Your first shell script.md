@@ -1,6 +1,6 @@
 # Your first shell script
 ## INTRODUCTION
-In the 2nd challenge, we have to create a shell script called `x.sh` which will excuted the commands `/challenge/pwn` and then `/challenge/college` which will get me the flag. I typed `nano x.sh` ( `nano` is a simple, command-line based editor) to create a shell script named `x.sh`.THIS RESULTED IN OPENING A COMMAND LINE BASED EDITOR WITH A FILE NAMES `x.sh` . In the `x.sh` file i added a `shebang line` `#!/bin/bash` which specifies which interpreter should be used to run the script which is `bash` and then i added the commands `/challenge/pwn` and then `/challenge/college` and then i saved the file and exited.After that i wrote `bash x.sh` to run the file using `bash`.Then i got the file.
+In the 2nd challenge, we have to create a shell script called `x.sh` which will excuted the commands `/challenge/pwn` and then `/challenge/college` which will get me the flag. I typed `nano x.sh` ( `nano` is a simple, command-line based editor) to create a shell script named `x.sh`.THIS RESULTED IN OPENING A COMMAND LINE BASED EDITOR WITH A FILE NAMES `x.sh` . In the `x.sh` file i added a `shebang line` `#!/bin/bash` which specifies which interpreter should be used to run the script which is `bash` and then i added the commands `/challenge/pwn` and then `/challenge/college` and then i saved the file and exited the editor.After that i wrote `bash x.sh` in the terminal to run the file using `bash`.Then i got the file.
 ## CODE
 ```bash
 Connected!                                                                        
