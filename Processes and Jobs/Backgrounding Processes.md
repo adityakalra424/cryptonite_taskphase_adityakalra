@@ -5,7 +5,7 @@ This will allow the process to keep running, while giving me my shell back to in
 In this challenge we had to Use the terminal to launch `/challenge/run`, then suspend it,
 then background it with `bg` command and then  launch another copy while the first is running in the background!.
 I wrote `/challenge/run` to launch the process, then i pressed`crtl+z` to suspend it, then i wrote `bg /challenge/run` to resume the process in the background
-and then i again resumed the process.Then i got the flag.
+and then i again launched the process by typing `/challenge/run`.Then i got the flag.
 ## CODE
 ```bash
 Connected!
