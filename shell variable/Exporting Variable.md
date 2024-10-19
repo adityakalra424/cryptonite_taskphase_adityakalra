@@ -1,6 +1,6 @@
 # Exporting Variable
 ## INTRODUCTION 
-In the 4th challenge,we learn the use of `ecport` command, in this challenge we must invoke `/challenge/run` with the `PWN` variable exported and set to the value `COLLEGE`, and the `COLLEGE` variable set to the value `PWN` but not exported.To solve the challenge,I wrote
+In the 4th challenge,we learn the use of `export` command, in this challenge we must invoke `/challenge/run` with the `PWN` variable exported and set to the value `COLLEGE`, and the `COLLEGE` variable set to the value `PWN` but not exported.To solve the challenge,I wrote
 `export PWN=COLLEGE` to set the  value `COLLEGE` to the `PWN` variable and export it.Then i wrote `COLLEGE=PWN` to set the value `PWN` to the `COLLEGE` variable and then i wrote `/challnege/run` to complete the challenge.
 
 ## CODE
