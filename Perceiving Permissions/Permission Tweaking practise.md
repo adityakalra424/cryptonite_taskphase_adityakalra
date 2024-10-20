@@ -1,6 +1,6 @@
 # Permission Tweaking practise
 ## INTRODUCTION 
-In the 6th challenge, we had to tweak the permissions of the `/challenge/run` program to get the flag.
+In the 6th challenge, we had to tweak the permissions of the `/challenge/run` program using `chmod` according to what the question asks to get the flag.
 ## CODE
 ```bash
 hacker@permissions~permission-tweaking-practice:~$ /challenge/run
