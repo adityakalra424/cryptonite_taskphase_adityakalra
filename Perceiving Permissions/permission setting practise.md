@@ -1,6 +1,7 @@
 # permission setting practise
 ## INTRODUCTION 
-In this 7th challenge we have to solve the problem by setting the permission for the `/challenge/pwn` in the order asked to get the flag using `chmod`.
+In this 7th challenge we have to solve the problem by setting the permission for the `/challenge/pwn` in the order asked to get the flag using `chmod` and `=` and `-`.In this challenge we learn about `=` and how `=` is used to set the permission for the file. we also learn about `-` which is used when u want to remove all 
+permissions for `user/group/other`.
 ## CODE
 ``` bash
 hacker@permissions~permissions-setting-practice:~$ /challenge/run
