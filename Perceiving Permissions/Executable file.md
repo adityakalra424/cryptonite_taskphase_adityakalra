@@ -1,6 +1,6 @@
 # Executable file
 ## INTRODUCTION 
-In 5th challenge, we had to change the permission of the `/challenge/run` program so that the user which is the `hacker` can excute the file.
+In 5th challenge, we had to change the permission of the `/challenge/run` program so that the user which is the `hacker` can excute the file using `chmod`.
 So i wrote `chmod u+x /challenge/run`to change the permission so that the user (`u`) could excute (`x`) the program `/challenge/run`.
 Then i excuted the program to get the flag.
 ## CODE
