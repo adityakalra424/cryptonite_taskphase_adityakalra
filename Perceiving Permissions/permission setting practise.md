@@ -1,6 +1,6 @@
 # permission setting practise
 ## INTRODUCTION 
-In this 7th challenge we have to solve the problem by setting the permission for the `/challenge/pwn` is the order asked to get the flag using `chmod`.
+In this 7th challenge we have to solve the problem by setting the permission for the `/challenge/pwn` in the order asked to get the flag using `chmod`.
 ## CODE
 ``` bash
 hacker@permissions~permissions-setting-practice:~$ /challenge/run
